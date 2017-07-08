@@ -35,18 +35,6 @@ Add it to your `INSTALLED_APPS`:
         ...
     )
 
-Add django-recaptcha-utils's URL patterns:
-
-.. code-block:: python
-
-    from recaptcha_utils import urls as recaptcha_utils_urls
-
-
-    urlpatterns = [
-        ...
-        url(r'^', include(recaptcha_utils_urls)),
-        ...
-    ]
 
 Features
 --------
